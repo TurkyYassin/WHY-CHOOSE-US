@@ -223,6 +223,59 @@ header * {
     background: #F84D07;
   }
 
+  /* Responsive Start */
+  @media (max-width: 1024px) {
+    #navbar img {
+      margin-left: 20px;
+    }
+    #navbar .search{
+      display: none;
+    }
+  
+    #navbar ul {
+      margin-right: 20px;
+    }
+  
+    #navbar ul li a {
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #navbar {
+      flex-direction: column;
+    }
+
+    #navbar img {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: -200px;
+    }
+
+    #navbar .search{
+      display: none;
+    }
+    #navbar .login{
+      /* display: none; */
+      position: absolute;
+      top: 30px;
+      right: 100px;
+    }
+    #navbar .start{
+      display: none;
+    }
+  
+    #navbar ul {
+      margin-right: 40px;
+    }
+  
+    #navbar ul li a {
+      padding: 10px;
+      z-index: 999;
+    }
+  }
+
+
 /* Header End */
 /* why choose us start */
 .choose{
@@ -261,6 +314,95 @@ h2{
     margin-bottom: 30px;
     margin-left: 30px;
 }
+
+/* Responsive Start */
+@media (max-width: 1024px) {
+  .choose{
+    margin-left: -150px;
+  }
+  .choose .sec1 h2{
+    margin-left: 100px;
+  }
+  .choose .sec1 p{
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .choose .sec1{
+    width: 370px;
+    margin-left: -140px;
+  }
+  .choose .sec1 h2{
+    width: 100%;
+    margin-left: 100px;
+  }
+  .choose .sec1 p{
+    width: 100%;
+  }
+
+  .choose .par{
+    display: block;
+  }
+  .choose .par img{
+    width: 200px;
+    margin: 50px 30px;
+  }
+  .choose .sec2{
+    width: 370px;
+  }
+  .choose .sec2 h2{
+    width: 100%;
+    margin-left: -40px;
+  }
+  .choose .sec2 p{
+    width: 100%;
+    margin-left: -30px;
+  }
+
+  .choose .sec3{
+    width: 370px;
+  }
+  .choose .sec3 h2{
+    width: 100%;
+    margin-left: -40px;
+  }
+  .choose .sec3 p{
+    width: 100%;
+    margin-left: -30px;
+  }
+
+  .choose .sec4{
+    width: 370px;
+  }
+  .choose .sec4 h2{
+    width: 100%;
+    margin-left: -40px;
+  }
+  .choose .sec4 p{
+    width: 100%;
+    margin-left: -30px;
+  }
+
+  .choose .sec4 li{
+    margin-left: -20px;
+  }
+
+  .choose .sec5{
+    width: 370px;
+  }
+  .choose .sec5 h2{
+    width: 100%;
+    margin-left: -40px;
+  }
+  .choose .sec5 p{
+    width: 100%;
+    margin-left: -30px;
+  }
+
+}
+
+
 /* why choose us END */
 
  /* Footer Start */
